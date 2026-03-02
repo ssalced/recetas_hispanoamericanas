@@ -5,7 +5,7 @@ on:
 jobs:
   Mi-primer-job:
     name: Mi primer job
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
     steps:
     - name: Imprimir 
       env:
